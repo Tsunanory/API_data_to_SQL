@@ -94,7 +94,7 @@ def create_database(database_name: str, params: dict) -> None:
                 from_salary INT,
                 to_salary INT,
                 currency VARCHAR(3),
-                country VARCHAR(30),
+                country VARCHAR(50),
                 url VARCHAR(100),
                 experience VARCHAR(20),
                 requirement TEXT
